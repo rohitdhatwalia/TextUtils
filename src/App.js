@@ -37,12 +37,7 @@ function App() {
       document.body.style.backgroundColor = '#042743';
       showAlert("Dark mode has been enabled", "success");
       document.title = 'TextUtils - DarkMode';
-      // setInterval(() => {
-      //   document.title = 'TextUtils is amazing website ';
-      // }, 3000);
-      // setInterval(() => {
-      //   document.title = 'Install Now ';
-      // }, 2000);
+     
     }
     else{
       setMode('light');
@@ -53,8 +48,7 @@ function App() {
   }
 
   return (
-    // JSX (html+Js) ...classnameclassname , for = HtmlFor
-    // js fregment ( <>...</> )-- for return multiple elements
+    
     <> 
     <Router>
       {/* <Navbar  title = "TextUtils" aboutText = "About" /> */}
